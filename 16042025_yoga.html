@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yoga and Exercise</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #f0f4c3, #b2dfdb);
+      margin: 0;
+      padding: 40px;
+      color: #2c2c2c;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #33691e;
+    }
+
+    p {
+      max-width: 900px;
+      margin: 20px auto 40px;
+      font-size: 1.3em;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    table {
+      width: 95%;
+      max-width: 1000px;
+      margin: auto;
+      border-collapse: collapse;
+      background-color: #ffffffcc;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      font-size: 1.1em;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #aed581;
+      color: #1b5e20;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9fbe7;
+    }
+
+    a {
+      color: #1e88e5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      width: 100px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    input[type="checkbox"] {
+      transform: scale(1.4);
+      cursor: pointer;
+    }
+
+    .music-control {
+      position: fixed;
+      bottom: 15px;
+      left: 15px;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Yoga and Exercise</h1>
+
+  <p>
+    Yoga and exercise are powerful tools to achieve a balanced lifestyle. Through daily practice of asanas and physical movements,
+    the body becomes more flexible, the mind more peaceful, and life more vibrant. Track your progress below and stay consistent!
+  </p>
+
+  <table>
+    <tr>
+      <th>Done?</th>
+      <th>Sr No.</th>
+      <th>Asana/Exercise</th>
+      <th>Image</th>
+      <th>YouTube Link</th>
+      <th>Time Limit</th>
+    </tr>
+    <tr>
+      <td><input type="checkbox"></td>
+      <td>1</td>
+      <td>Surya Namaskar</td>
+      <td><img src="https://www.yogajournal.com/wp-content/uploads/2021/04/surya-namaskar-A.jpg" alt="Surya Namaskar"></td>
+      <td><a href="https://www.youtube.com/watch?v=6IUyY9Dyr5w" target="_blank">Watch</a></td>
+      <td>15 mins</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox"></td>
+      <td>2</td>
+      <td>Plank Exercise</td>
+      <td><img src="https://cdn.prod.openfit.com/uploads/2020/05/11110743/plank-benefits.jpg" alt="Plank"></td>
+      <td><a href="https://www.youtube.com/watch?v=pSHjTRCQxIw" target="_blank">Watch</a></td>
+      <td>5 mins</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox"></td>
+      <td>3</td>
+      <td>Bhujangasana</td>
+      <td><img src="https://cdn.pixabay.com/photo/2020/07/11/05/47/yoga-5393503_1280.jpg" alt="Bhujangasana"></td>
+      <td><a href="https://www.youtube.com/watch?v=RDwYk9U-zpA" target="_blank">Watch</a></td>
+      <td>10 mins</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox"></td>
+      <td>4</td>
+      <td>Squats</td>
+      <td><img src="https://cdn.muscleandstrength.com/sites/default/files/field/image/workout/squat.jpg" alt="Squats"></td>
+      <td><a href="https://www.youtube.com/watch?v=aclHkVaku9U" target="_blank">Watch</a></td>
+      <td>8 mins</td>
+    </tr>
+  </table>
+
+  <!-- Music Player with Controls -->
+  <div class="music-control">
+    <audio id="bgMusic" controls autoplay loop>
+      <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_197bf5a158.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+</body>
+</html>
